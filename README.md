@@ -39,6 +39,13 @@ Each of the `*Test.kt` files contains the example usage of that particular API.
 
 In each file, replace the placeholder values with your endpoint, projectID and API key and simply run the `main` function.
 
+```kotlin
+    val client = Client()
+        .setProject("[YOUR_PROJECT_ID]")
+        .setEndpoint("[YOUR_ENDPOINT]")
+        .setKey("[YOUR_KEY]")
+```
+
 ```sh
 appwrite-kotlin-demo git:(main) ✗ tree src
 src
