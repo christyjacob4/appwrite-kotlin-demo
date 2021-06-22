@@ -1,6 +1,6 @@
-<h1 align="center">Appwrite kotlin Demo 🤖</h1>
+<h1 align="center">Appwrite Kotlin Demo 🤖</h1>
 <p align = center>
-    <img alt="Project Logo" src="https://user-images.githubusercontent.com/20852629/121350853-c4b5a900-c948-11eb-8a3b-300eae63ae26.png" target="_blank" />
+    <img alt="Project Logo" src="https://user-images.githubusercontent.com/20852629/122877159-eacd4700-d353-11eb-97a9-367b20dab8e8.png" target="_blank" />
 </p>
 
 
@@ -35,9 +35,9 @@ git clone https://github.com/christyjacob4/appwrite-kotlin-demo
 
 ## 📁 Folder Structure
 
-Each folder under the `ui` directory has interactions with one particular API of Appwrite. The `Accounts` directory contains interactions with Appwrite's Account's API and so on.
+Each of the `*Test.kt` files contains the example usage of that particular API. 
 
-`Client.kt` contains a singleton object that initializes the Appwrite client.
+In each file, replace the placeholder values with your endpoint, projectID and API key and simply run the `main` function.
 
 ```sh
 appwrite-kotlin-demo git:(main) ✗ tree src
